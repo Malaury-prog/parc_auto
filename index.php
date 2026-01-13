@@ -62,16 +62,19 @@ ORDER BY montant_total ASC LIMIT 100;-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garage Parc Auto</title>
+    <head>
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
+</head>
+<body class="bg-default font-sans text-gray-800">
 
-    <main>
+    <main class="container py-10">
 
-        <section id="section_header">
+        <section id="section_header grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             
-            <article class="">
+            <article class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 flex justify-between items-center hover:shadow-md transition">
                 <div class="">
-                    <h3>Total Véhicules</h3>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Véhicules</h3>
                     <p>1,248</p>
                 </div>
                 <div class=""><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path fill="currentColor" fill-rule="evenodd" d="M128 298.666c23.564 0 42.667 19.103 42.667 42.667S151.564 384 128 384s-42.666-19.103-42.666-42.667s19.102-42.667 42.666-42.667m245.334 0c23.564 0 42.666 19.103 42.666 42.667S396.898 384 373.334 384s-42.667-19.103-42.667-42.667s19.103-42.667 42.667-42.667m-64 42.667c0 7.48 1.283 14.661 3.642 21.334H188.358A63.9 63.9 0 0 0 192 341.333c0-7.48-1.283-14.661-3.642-21.334h124.618a63.9 63.9 0 0 0-3.642 21.334m-24.89-192l5.69 4.267l81.856 61.397l65.025 16.266c17.877 4.47 30.731 19.85 32.182 37.966l.137 3.427v74.667l-16.16 4.04l-17.466 4.367a64.2 64.2 0 0 0 1.626-14.397c0-13.085-3.927-25.252-10.666-35.388l-.001-33.289l-69.174-17.293l-4.18-1.045l-.835-.627l-11.144 11.145a42.67 42.67 0 0 1-30.17 12.497l-225.831-.001v16.299C72.24 305.349 64 322.379 64 341.333c0 3.244.242 6.431.707 9.545l-22.04-22.042V226.943l4.945-5.934l53.333-64l6.397-7.676zM270.23 192H127.318l-35.55 42.666h219.396l6.835-6.836z"/></svg></div>
